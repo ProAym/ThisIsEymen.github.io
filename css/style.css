@@ -176,7 +176,7 @@ header.sticky .nav-bar{
 
 }
 .nav-bar .logo{
-    color: var(--first-color);
+    color: var(--second-color);
     font-size: 1.3em;
     font-weight: 600;
 }
@@ -222,6 +222,7 @@ header.sticky .nav-bar{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 0;
 }
 
 .home-container .media-icons{
@@ -270,6 +271,7 @@ header.sticky .nav-bar{
 
 .home-container .home-img{
     position: relative;
+    right: 0;
 }
 .home-container .home-img img{
     width: 90%;
@@ -560,6 +562,9 @@ header.sticky .nav-bar{
     width: 100%;
 }
 
+.services-description{
+    margin-left: 60px;
+}
 .services-description h3{
     font-size: 2em;
     margin-bottom: 50px;
@@ -667,7 +672,7 @@ header.sticky .nav-bar{
 
 /*=========Portfolio section=============*/
 .portfolio .container .content{
-    width: 60%;
+    width: 50%;
 }
 
 .portfolio-list{
@@ -1048,7 +1053,8 @@ footer a{
     }
     .about-img img{
         min-width: 0;
-        width: 100%;
+        width: 500px;
+        height: 500px;
     }
     .about-info{
         min-width: 0;
@@ -1074,6 +1080,8 @@ footer a{
     .contact-form .second-row input{
         width: 100%;
     }
+
+   
 
     /*==============Footer================*/
     footer .footer-container{
